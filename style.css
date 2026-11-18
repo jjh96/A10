@@ -1,0 +1,77 @@
+/* Copyright (c) 2026 [Your Name]. Assignment A10 - Due [due date for A10] */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f5f9;
+  color: #1c2434;
+}
+
+.card {
+  width: min(640px, 92%);
+  margin: 48px 0 24px;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(28, 36, 52, 0.12);
+}
+
+h1 { margin-top: 0; }
+h2 { font-size: 1.1rem; margin-top: 32px; }
+
+.greeting {
+  min-height: 1.5em;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f5f8b;
+}
+
+label { display: block; margin-bottom: 8px; }
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #9aa5b8;
+  border-radius: 6px;
+}
+
+.buttons { margin-top: 12px; display: flex; gap: 12px; }
+
+button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #1f5f8b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button.secondary { background: #6b7587; }
+button:hover { opacity: 0.9; }
+
+.hint, .small { color: #4a5568; font-size: 0.95rem; }
+.label { margin: 8px 0 4px; font-weight: bold; }
+
+.display {
+  margin: 0;
+  padding: 12px;
+  background: #eef1f6;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: "Courier New", monospace;
+}
+
+footer {
+  margin: 8px 0 32px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}

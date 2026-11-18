@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  Copyright (c) 2026 [Your Name]. All rights reserved.
+  Assignment A10 - Due [due date for A10]
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A10 – Cookie Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Cookie Demo</h1>
+
+    <p id="greeting" class="greeting"></p>
+
+    <form id="cookie-form">
+      <label for="username">Enter your name and click Save to set a cookie:</label>
+      <input type="text" id="username" name="username" maxlength="40" autocomplete="off" required>
+      <div class="buttons">
+        <button type="submit">Save cookie</button>
+        <button type="button" id="delete-btn" class="secondary">Delete cookie</button>
+      </div>
+    </form>
+
+    <p class="hint">Now reload the page. The cookie is sent back by your browser and displayed below.</p>
+
+    <h2>What the browser has stored for this page</h2>
+    <p class="label">document.cookie</p>
+    <pre id="cookie-display" class="display"></pre>
+    <p id="visit-count" class="small"></p>
+  </main>
+
+  <footer>
+    &copy; 2026 [Your Name]. Assignment A10, due [due date for A10].
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
